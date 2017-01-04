@@ -12,7 +12,7 @@ BOT_NAME = 'musiclyrics'
 
 SPIDER_MODULES = ['musiclyrics.spiders']
 NEWSPIDER_MODULE = 'musiclyrics.spiders'
-DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 1
 RANDOMIZE_DOWNLOAD_DELAY = True
 DOWNLOADER_MIDDLEWARES = {
 	'musiclyrics.middlewares.MyCustomDownloaderMiddleware': None,
